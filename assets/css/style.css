@@ -22,11 +22,32 @@ h2	{
 }
 
 nav	{
+	width: 270px;
 	float: right;
+	border: 1px solid black;
+}
+
+ul {
+	list-style: none;
+	margin: 0 auto;
 }
 
 a {
 	color: #777777;
+	text-decoration: none;
+	margin-right: 2px;
+}
+
+
+.icon {
+	width: 50px;
+	height: auto;
+}
+
+li {
+	float: left;
+	text-align: center;
+	border-right: 1px solid;
 }
 
 section	{
@@ -53,15 +74,19 @@ input {
 	margin: 0 auto;
 	background-image: url("../images/background.png");
 	height: 600px;
+	width: 100%;
 }
 
 #social-links {
-	float: left;
+	float: right;
+	border: 1px solid black;
+	width: 270px;
 }
 
 #main-bio {
 	float: left;
-	width: 70%
+	width: 650px;
+	border: 1px solid black;
 }
 
 #bio-image {
@@ -73,7 +98,8 @@ input {
 
 #contact-form {
 	float: left;
-	width: 30%;
+	width: 270px;
+	border: 1px solid black;
 }
 
 #project-portfolio {
