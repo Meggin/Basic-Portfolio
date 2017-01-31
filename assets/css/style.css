@@ -1,23 +1,92 @@
-.jumbotron {
-	background-color: #428bca
+<!-- So padding and border no longer increase width. -->
+* {
+  box-sizing: border-box;
 }
 
-.jumbotron h1 {
-	color:white;
+body {
+	color: #777777
+	width:	960px;
 }
 
-p, h1, h4 {
-	font-family: 'Roboto Slab', serif;
+header	{
 }
 
-#funText {
-	color: black;
-	font-size: 24px;
-	font-family: 'Roboto Slab', serif;
+h1	{
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
 }
 
-#box {
-	height: 100px;
-	width: 100px;
-	margin:auto;
+h2	{
+	color: #4aaaa5;
+}
+
+nav	{
+	float: right;
+}
+
+a {
+	color: #777777;
+}
+
+section	{
+	background-color: #ffffff;
+	float: left;
+	color: #777777;
+}
+
+p {
+	float: left;
+}
+
+label {
+
+}
+
+input {
+
+}
+
+.container {
+	clear: both;
+	overflow: auto;
+	margin: 0 auto;
+	background-image: url("../images/background.png");
+	height: 600px;
+}
+
+#social-links {
+	float: left;
+}
+
+#main-bio {
+	float: left;
+	width: 70%
+}
+
+#bio-image {
+	float: left;
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+#contact-form {
+	float: left;
+	width: 30%;
+}
+
+#project-portfolio {
+	float: left;
+
+}
+
+footer {
+	clear: both;
+	float: left;
+	height: 70px;
+	background-color: #666666;
+	color: #777777;
+	text-align: center;
+	width: 100%;
 }
