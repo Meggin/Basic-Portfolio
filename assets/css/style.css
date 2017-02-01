@@ -17,6 +17,12 @@ h1	{
 
 h2	{
 	color: #4aaaa5;
+	border-bottom:	2px solid gray;
+}
+
+h3	{
+	color: #4aaaa5;
+	border-bottom:	1px solid gray;
 }
 
 nav	{
@@ -83,6 +89,12 @@ textarea {
 	width: 100%
 }
 
+.header-container {
+	border-bottom: 2px solid gray;
+	height: 60px;
+	clear: both;
+}
+
 .container {
 	clear: both;
 	overflow: auto;
@@ -90,7 +102,6 @@ textarea {
 	background-image: url("../images/background.png");
 	height: 600px;
 	width: 100%;
-	border-top: 2px solid gray;
 	border-bottom: 5px solid teal;
 }
 
@@ -138,7 +149,11 @@ footer {
 	float: left;
 	height: 70px;
 	background-color: #666666;
-	color: #777777;
 	text-align: center;
 	width: 100%;
+}
+
+.footer-text {
+	border-bottom: none;
+	color: #777777;
 }
