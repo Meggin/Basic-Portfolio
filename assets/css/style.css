@@ -8,9 +8,6 @@ body {
 	width:	960px;
 }
 
-header	{
-}
-
 h1	{
 	float: left;
 	background-color: #4aaaa5;
@@ -25,6 +22,7 @@ nav	{
 	width: 270px;
 	float: right;
 	border: 1px solid black;
+	text-align: left;
 }
 
 ul {
@@ -32,22 +30,27 @@ ul {
 	margin: 0 auto;
 }
 
+li {
+	float: left;
+	padding: 10px;
+}
+
+li.border {
+	border-right: 1px solid gray;
+	padding: 10px;
+}
+
 a {
 	color: #777777;
 	text-decoration: none;
-	margin-right: 2px;
 }
 
 
 .icon {
 	width: 50px;
 	height: auto;
-}
-
-li {
-	float: left;
-	text-align: center;
-	border-right: 1px solid;
+	color: none;
+	border-right: none;
 }
 
 section	{
@@ -75,6 +78,8 @@ input {
 	background-image: url("../images/background.png");
 	height: 600px;
 	width: 100%;
+	border-top: 2px solid gray;
+	border-bottom: 5px solid teal;
 }
 
 #social-links {
@@ -104,7 +109,7 @@ input {
 
 #project-portfolio {
 	float: left;
-
+	border: 1px solid black;
 }
 
 footer {
