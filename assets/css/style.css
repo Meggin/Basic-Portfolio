@@ -1,4 +1,4 @@
-<!-- So padding and border no longer increase width. -->
+/* So padding and border no longer increase width. */
 * {
   box-sizing: border-box;
 }
@@ -12,6 +12,7 @@ h1	{
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
+	margin-bottom: 0;
 }
 
 h2	{
@@ -21,19 +22,21 @@ h2	{
 nav	{
 	width: 270px;
 	float: right;
-	border: 1px solid black;
-	text-align: left;
+	text-align: center;
 }
 
 ul {
 	list-style: none;
-	margin: 0 auto;
+	margin: 0;
+	padding: 0;
 }
 
 li {
 	float: left;
+	width: 33%;
 	padding: 10px;
 }
+
 
 li.border {
 	border-right: 1px solid gray;
@@ -45,6 +48,12 @@ a {
 	text-decoration: none;
 }
 
+
+.project-title {
+	width: 100%;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
 
 .icon {
 	width: 50px;
@@ -64,11 +73,14 @@ p {
 }
 
 label {
-
 }
 
 input {
+	width: 100%;
+}
 
+textarea {
+	width: 100%
 }
 
 .container {
@@ -80,6 +92,12 @@ input {
 	width: 100%;
 	border-top: 2px solid gray;
 	border-bottom: 5px solid teal;
+}
+
+.project {
+	clear: both;
+	float: left;
+	width: 100%;
 }
 
 #social-links {
@@ -110,6 +128,7 @@ input {
 #project-portfolio {
 	float: left;
 	margin: 0 auto;
+	overflow: auto;
 	width: 650px;
 	border: 1px solid black;
 }
