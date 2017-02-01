@@ -103,12 +103,14 @@ input {
 
 #contact-form {
 	float: left;
-	width: 270px;
+	width: 650px;
 	border: 1px solid black;
 }
 
 #project-portfolio {
 	float: left;
+	margin: 0 auto;
+	width: 650px;
 	border: 1px solid black;
 }
 
