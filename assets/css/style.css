@@ -67,6 +67,11 @@ a {
 	text-decoration: none;
 }
 
+/* Nav links turn teal on hover. */
+a:hover {
+  color: #4aaaa5;
+}
+
 .icon {
 	width: 60px;
 	height: auto;
@@ -134,6 +139,15 @@ footer {
 	margin: 20px;
 }
 
+/* Rotates project in portfolio on hover. */
+.box:hover {
+	transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+}
+
 .project {
 	float: left;
 	position: relative;
@@ -161,6 +175,11 @@ footer {
 	border: none;
 	position: relative;
 	top: -8px;
+}
+
+/* Button turns dark on hover. */
+.button:hover {
+	background-color: #374865;
 }
 
 #social-links {
