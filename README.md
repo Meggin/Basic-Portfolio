@@ -10,10 +10,10 @@ Feel free to fork and re-use:
 ## A word of caution
 
 I'm learning the fundamentals of writing CSS,
-so you will notice I'm not using [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](flexbox) yet,
-sticking to floats and positioning for now.
+so you will notice I'm not using [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) yet.
+It's good to learn floats and positioning first.
 
-Stay tuned, as the hope is I will get better!
+Stay tuned, as I hopefully learn to write better CSS!
 
 ## Some useful resources
 
