@@ -3,6 +3,8 @@
 This is a template for a basic portfolio website.
 So far, the site is static, built with HTML and CSS files.
 
+Check it out [this staged version](https://mysterious-brushlands-16203.herokuapp.com/portfolio.html).
+
 Feel free to fork and re-use:
 
 `git clone https://github.com/Meggin/Basic-Portfolio.git`
