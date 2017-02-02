@@ -1,6 +1,6 @@
 # Basic-Portfolio
 
-This is a template for basic portfolio website.
+This is a template for a basic portfolio website.
 So far, the site is static, built with HTML and CSS files.
 
 Feel free to fork and re-use:
