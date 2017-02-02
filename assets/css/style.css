@@ -79,6 +79,15 @@ a:hover {
 	border-right: none;
 }
 
+/* Rotates social icon in contacts on hover. */
+.icon:hover {
+	transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+}
+
 section	{
 	background-color: #ffffff;
 	float: left;
@@ -158,7 +167,7 @@ footer {
 .project-title {
 	float: left;
 	position: relative;
-	top: -40px;
+	top: -50px;
 	width: 100%;
 	height: 30px;
 	background-color: #4aaaa5;
