@@ -22,5 +22,5 @@ Here's a list of some useful resources that helped me create this template:
 * [Learn CSS Layout](http://learnlayout.com/)
 * [How to Use Hover Effects with CSS](http://www.codeitpretty.com/2013/06/how-to-use-css-hover-effects.html)
 * [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model)
-* [CSS Box Model](https://validator.w3.org/nu/#textarea)
+* [Nu HTML Validator](https://validator.w3.org/nu/#textarea)
 
