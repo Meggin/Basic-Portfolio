@@ -3,12 +3,13 @@
   box-sizing: border-box;
 }
 
+/* Some default document settings. */
 body {
 	color: #777777;
-	width: 960;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 30px;
 	text-align: left;
+	width: 960;
 }
 
 header	{
@@ -28,16 +29,13 @@ header	{
 	padding-top: 15px;
 }
 
-h2	{
+h2,
+h3	{
 	color: #4aaaa5;
 	border-bottom:	3px solid #dddddd;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-h3	{
-	color: #4aaaa5;
-	border-bottom:	2px solid #dddddd;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-top: 1px;
+	padding-bottom: 3px;
 }
 
 nav	{
@@ -58,7 +56,6 @@ li {
 	width: 33%;
 	padding: 10px;
 }
-
 
 li.border {
 	border-right: 1px solid #dddddd;
@@ -84,20 +81,34 @@ section	{
 	border: 2px solid #dddddd;
 }
 
-p {
-
-}
-
-label {
-}
-
-input, textarea {
+input,
+textarea {
 	width: 100%;
-	padding: 12px 20px;
+	padding: 10px 20px 10px 10px;
     margin: 8px 0;
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
+}
+
+/* Need to use a pseudoclass to control placeholder. */
+input,
+textarea,
+input::-webkit-input-placeholder {
+    font-size: 16px;
+}
+
+footer {
+	clear: both;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding: 18px;
+	height: 70px;
+	background-color: #666666;
+	width: 100%;
+	border-bottom: none;
+	color: #777777;
+	text-align: center;
 }
 
 .header-container {
@@ -106,7 +117,7 @@ input, textarea {
 	height: 60px;
 }
 
-.container {
+.main-container {
 	clear: both;
 	overflow: auto;
 	margin: 0 auto;
@@ -114,60 +125,6 @@ input, textarea {
 	height: 600px;
 	width: 100%;
 	border-bottom: 5px solid #4aaaa5;
-}
-
-#social-links {
-	float: right;
-	padding: 20px;
-	width: 270px;
-	top: 50px;
-	text-align: center;
-	margin-right: 175px;
-	margin-top: 50px
-}
-
-#main-bio {
-	position: relative;
-	padding: 20px;
-	text-align: left;
-	width: 650px;
-	height: auto;
-	top: 50px;
-	margin-left: 75px;
-	margin-bottom: 50px;
-	margin-right: 50px;
-}
-
-#bio-image {
-	clear: both;
-	float: left;
-	margin-right: 20px;
-	width: 200px;
-	height: 200px;
-}
-
-#contact-form {
-	position: relative;
-	padding: 20px;
-	text-align: left;
-	width: 650px;
-	height: auto;
-	top: 50px;
-	margin-left: 75px;
-	margin-bottom: 50px;
-	margin-right: 50px;
-}
-
-#project-portfolio {
-	position: relative;
-	padding: 20px;
-	text-align: left;
-	width: 650px;
-	height: auto;
-	top: 50px;
-	margin-left: 75px;
-	margin-bottom: 50px;
-	margin-right: 50px;
 }
 
 .box {
@@ -180,6 +137,7 @@ input, textarea {
 .project {
 	float: left;
 	position: relative;
+	top:	-10px;
 	width: 100%;
 }
 
@@ -194,19 +152,6 @@ input, textarea {
 	text-align: center;
 }
 
-footer {
-	clear: both;
-	margin: 0 auto;
-	vertical-align: middle;
-	padding: 15px;
-	height: 70px;
-	background-color: #666666;
-	width: 100%;
-	border-bottom: none;
-	color: #777777;
-	text-align: center;
-}
-
 .button {
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -214,4 +159,51 @@ footer {
 	height: 40px;
 	font-size: 16px;
 	border: none;
+	position: relative;
+	top: -8px;
+}
+
+#social-links {
+	float: right;
+	padding: 20px;
+	width: 270px;
+	top: 50px;
+	text-align: center;
+	margin-right: 175px;
+	margin-top: 50px
+}
+
+#main-bio,
+#contact-form,
+#project-portfolio {
+	position: relative;
+	text-align: left;
+	width: 650px;
+	top: 50px;
+	margin-left: 75px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+}
+
+#main-bio {
+	height: auto;
+	padding: 20px;
+}
+
+#bio-image {
+	clear: both;
+	float: left;
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+#contact-form {
+	padding: 20px;
+	height: 500px;
+}
+
+#project-portfolio {
+	padding: 15px;
+	height: 500px;
 }

@@ -25,18 +25,17 @@
 		</nav>
 	</div>
 	
-	<div class="container">
+	<div class="main-container">
 		<section id="contact-form">
 			<h2>Contact</h2>
 			<form id="contact" action="login.php" method="post">    
 				<label for="name">Name</label><br>
-				<input id="name" type="text" autocomplete="username" placeholder="Full name" required><br>
+				<input id="name" type="text" autocomplete="username" placeholder="Jane Doe" required><br>
 				<label for="email">Email</label><br>
 				<input id="email" type="email" name="email" autocomplete="email"
-				       placeholder="youremail@foo.com" oninput="check(this)"
-				       pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required><br>
+					   placeholder="example@gmail.com" required><br>
 				<label for="textfield">Message</label><br>
-				<textarea id="textfield" rows="10"></textarea><br>
+				<textarea id="textfield" rows="7"></textarea><br>
 				<button class="button" type="submit" name="submit">Submit</button>
 			</form>
     	</section>
