@@ -1,10 +1,11 @@
 # Basic-Portfolio
 
-This is a template for a static, basic portfolio website.
+This is a template for basic portfolio website.
+So far, the site is static, built with HTML and CSS files.
 
 Feel free to fork and re-use:
 
-'git clone https://github.com/Meggin/Basic-Portfolio.git'.
+`git clone https://github.com/Meggin/Basic-Portfolio.git`
 
 ## A word of caution
 
@@ -18,8 +19,8 @@ Stay tuned, as the hope is I will get better!
 
 Here's a list of some useful resources that helped me create this template:
 
-* [http://learnlayout.com/](Learn CSS Layout)
-* [http://www.codeitpretty.com/2013/06/how-to-use-css-hover-effects.html](How to Use Hover Effects with CSS)
-* [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model](CSS Box Model)
-* [https://validator.w3.org/nu/#textarea](Nu HTML Checker)
+* [Learn CSS Layout](http://learnlayout.com/)
+* [How to Use Hover Effects with CSS](http://www.codeitpretty.com/2013/06/how-to-use-css-hover-effects.html)
+* [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model)
+* [CSS Box Model](https://validator.w3.org/nu/#textarea)
 
