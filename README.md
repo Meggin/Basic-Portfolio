@@ -20,7 +20,7 @@ Stay tuned, as I hopefully learn to write better CSS!
 
 ## About design decisions
 
-This template is based on an assignment in the [Berkeley Coding Bootcamp]().
+This template is based on an assignment in the [Berkeley Coding Bootcamp](https://codingbootcamp.berkeley.edu).
 One of the design requirements was to maximize the size of the site at 960px.
 
 I made a design decision to increase that size to 1200px,

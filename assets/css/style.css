@@ -9,7 +9,7 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 30px;
 	text-align: left;
-	/* Set width to 1200 instead of 960, as better layout (in my humble opinion). */
+	/* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
 	width: 1200px;
 }
 
