@@ -17,6 +17,18 @@ It's good to learn floats and positioning first.
 
 Stay tuned, as I hopefully learn to write better CSS!
 
+
+## About design decisions
+
+This template is based on an assignment in the [Berkeley Coding Bootcamp]().
+One of the design requirements was to maximize the size of the site at 960px.
+
+I made a design decision to increase that size to 1200px,
+to give the boxes in the pages more visual space.
+(These boxes also had size requirements,
+so either they would get smaller, or the rest of the page bigger.)
+Hope this is OK.
+
 ## Some useful resources
 
 Here's a list of some useful resources that helped me create this template:

@@ -9,7 +9,8 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 30px;
 	text-align: left;
-	width: 960;
+	/* Set width to 1200 instead of 960, as better layout (in my humble opinion). */
+	width: 1200px;
 }
 
 header	{
@@ -19,7 +20,7 @@ header	{
 	color: #ffffff;
 	height: 100%;
 	width: 270px;
-	margin-left: 75px;
+	margin-left: 125px;
 	margin-bottom: 0;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
@@ -42,7 +43,7 @@ nav	{
 	width: 270px;
 	float: right;
 	text-align: center;
-	margin-right: 175px;
+	margin-right: 125px;
 }
 
 ul {
@@ -193,12 +194,12 @@ footer {
 
 #social-links {
 	float: right;
-	padding: 20px;
+	padding: 10px;
 	width: 270px;
-	top: 50px;
+	top: 30px;
 	text-align: center;
-	margin-right: 175px;
-	margin-top: 50px
+	margin-right: 125px;
+	margin-top: 30px
 }
 
 #main-bio,
@@ -207,10 +208,9 @@ footer {
 	position: relative;
 	text-align: left;
 	width: 650px;
-	top: 50px;
-	margin-left: 75px;
+	top: 30px;
+	margin-left: 125px;
 	margin-bottom: 50px;
-	margin-right: 50px;
 }
 
 #main-bio {
