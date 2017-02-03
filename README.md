@@ -15,8 +15,10 @@ I'm learning the fundamentals of writing CSS,
 so you will notice I'm not using [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) yet.
 It's good to learn floats and positioning first.
 
-Stay tuned, as I hopefully learn to write better CSS!
+Also, the site isn't responsive yet.
+It will be, just not yet.
 
+Stay tuned, as I hopefully learn to write better CSS!
 
 ## About design decisions
 
