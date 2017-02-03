@@ -3,7 +3,7 @@
 This is a template for a basic portfolio website.
 So far the site is static, built with HTML and CSS files.
 
-Check out [this staged version](https://mysterious-brushlands-16203.herokuapp.com/portfolio.html).
+Check out [this staged version](https://mysterious-brushlands-16203.herokuapp.com/index.html).
 
 Feel free to fork and re-use:
 
